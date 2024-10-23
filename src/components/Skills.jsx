@@ -125,9 +125,9 @@ export default function Skills({ className }) {
 
   return (
     <div className={`${className} overflow-hidden`}>
-      <h2 className="font-bold text-6xl mt-16 w-full text-center">Skills</h2>
+      <h2 className="font-bold text-4xl md:text-5xl mt-16 w-full text-center">Skills</h2>
 
-      <h3 className="font-bold text-4xl mt-12 w-full">Frontend</h3>
+      <h3 className="font-bold text-2xl md:text-3xl mt-12 w-full">Frontend</h3>
       <div className="relative my-8 w-full overflow-hidden">
         <div
           ref={containerRef}
@@ -143,14 +143,14 @@ export default function Skills({ className }) {
         </div>
       </div>
 
-      <h3 className="font-bold text-4xl mt-12 w-full">Backend</h3>
+      <h3 className="font-bold text-2xl md:text-3xl mt-12 w-full">Backend</h3>
       <div className="flex my-8">
         {backendSkills.map((item, index) => (
           <SkillItem key={index} item={item} />
         ))}
       </div>
 
-      <h3 className="font-bold text-4xl mt-12 w-full">Dev Tools</h3>
+      <h3 className="font-bold text-2xl md:text-3xl mt-12 w-full">Dev Tools</h3>
       <div className="flex my-8">
         {devTools.map((item, index) => (
           <SkillItem key={index} item={item} />

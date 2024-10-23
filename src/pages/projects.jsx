@@ -3,13 +3,13 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const myProjects = [
     {
       title: "Portfolio V1",
-      description:
-        "Website ini dibuat menggunakan html, css dan js",
+      description: "Website ini dibuat menggunakan html, css dan js",
       image: "portfolio-v1.png",
       link: "https://rozan-portfolio-1.netlify.app/",
     },
@@ -62,9 +62,12 @@ const Projects = () => {
                 <div className="w-full px-2 mt-6 mb-2">
                   <hr className="w-full border border-light" />
                 </div>
-                <div className="p-2 space-y-4">
-                  <h1 className="font-bold text-2xl">{item.title}</h1>
+                <div className="p-2">
+                  <h1 className="font-bold text-2xl mb-4">{item.title}</h1>
                   <p>{item.description}</p>
+                  <div className="flex justify-end mt-2">
+                    <FaExternalLinkAlt />
+                  </div>
                 </div>
               </a>
             ))}

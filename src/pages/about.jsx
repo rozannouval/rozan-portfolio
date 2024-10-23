@@ -53,7 +53,7 @@ const About = () => {
         <Layout className="pt-0 xl:container lg:mx-auto">
           <AnimatedText
             text="Who am I?"
-            className="!text-5xl text-center mb-16 mt-8"
+            className="text-4xl md:!text-5xl text-center mb-16 mt-8"
           />
           <div className="flex flex-col-reverse text-center lg:text-start xl:flex-row justify-between w-full mb-16 gap-8 lg:gap-16">
             <div className="flex flex-col items-center lg:items-start justify-center lg:justify-start text-light/75">
@@ -79,7 +79,7 @@ const About = () => {
 
             <div className="flex justify-center">
               <div className="relative h-max rounded-2xl border-2 border-solid border-light bg-dark p-8 flex justify-center">
-                <div className="w-80 h-auto">
+                <div className="w-64 md:w-80 h-auto">
                   <Image
                     src={Profile2}
                     alt="Profile"
