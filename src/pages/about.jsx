@@ -35,12 +35,13 @@ const About = () => {
   const [isTranslated, setIsTranslated] = useState(false);
 
   const toggleTranslate = () => {
-    setIsTranslated((prev) => !prev);
+    setIsTranslated((ubah) => !ubah); 
+    // jadi !ubah itu agar ketika nilai default yaitu ubah = false, jika ada dengan tanda seru berarti menandakan bahwa !false itu true.
   };
 
   const description = isTranslated
-    ? "Rozan Nouval adalah seorang siswa berusia 17 tahun dari Bandung, Jawa Barat, yang memiliki minat mendalam terhadap dunia teknologi yang terus berkembang. Ia fokus pada pengembangan perangkat lunak dan pengembangan web, di mana ia secara konsisten mengasah keterampilannya dan memperluas pengetahuannya. Dengan rasa ingin tahu yang tinggi, Rozan aktif terlibat dalam berbagai proyek coding dan selalu mengikuti tren terbaru dalam teknologi. Selain pendidikan, ia juga memiliki hobi seperti bermain game, coding, dan menonton anime, yang semakin meningkatkan kreativitas dan kemampuan pemecahan masalahnya."
-    : "17-year-old Rozan Nouval is a student from Bandung, West Java, Indonesia, who has a strong interest in the rapidly expanding field of technology. He focuses especially on software engineering and web development, where he constantly learns new things and hones his craft. Rozan has a natural desire for learning and actively participates in a variety of coding projects. He also keeps up with the most recent advancements in technology. Beyond academics, he has hobbies like gaming, coding, and anime viewing, all of which enhance his creative and problem-solving skills.";
+    ? "Saya adalah seorang siswa berusia 17 tahun dari Bandung, Jawa Barat, yang memiliki minat mendalam terhadap dunia teknologi yang terus berkembang. Saya fokus pada pengembangan perangkat lunak dan pengembangan web, di mana saya secara konsisten mengasah keterampilan saya dan memperluas pengetahuan saya. Dengan rasa ingin tahu yang tinggi, saya aktif terlibat dalam berbagai proyek coding dan selalu mengikuti tren terbaru dalam teknologi. Selain pendidikan, saya juga memiliki hobi seperti bermain game, coding, dan menonton anime, yang semakin meningkatkan kreativitas dan kemampuan pemecahan masalah saya."
+    : "I am a 17-year-old student from Bandung, West Java, Indonesia, with a strong interest in the rapidly expanding field of technology. I focus especially on software engineering and web development, where I constantly learn new things and hone my craft. I have a natural desire for learning and actively participate in a variety of coding projects. I also keep up with the most recent advancements in technology. Beyond academics, I have hobbies like gaming, coding, and anime viewing, all of which enhance my creative and problem-solving skills.";
 
   return (
     <>
@@ -57,7 +58,7 @@ const About = () => {
           <div className="flex flex-col-reverse text-center lg:text-start xl:flex-row justify-between w-full mb-16 gap-8 lg:gap-16">
             <div className="flex flex-col items-center lg:items-start justify-center lg:justify-start text-light/75">
               <h2 className="mb-4 lg:mt-4 text-3xl font-bold uppercase">
-                Profile
+                Rozan Nouval
               </h2>
               <div className="font-medium space-y-1">
                 <p className="font-medium text-lg text-justify">

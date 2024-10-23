@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import Link from "next/link";
 
-const Footer = () => {
+  const Footer = () => {
   return (
     <footer className="w-full border-t-2 border-solid border-light text-light font-medium">
       <Layout className="py-4 md:py-8 flex flex-col md:flex-row items-center justify-between text-sm md:text-base">

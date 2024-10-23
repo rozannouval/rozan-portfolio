@@ -99,7 +99,7 @@ export default function Home() {
                 {isPlaying ? <TbMusicOff /> : <TbMusic />}
               </button>
 
-              <audio ref={audioRef} src="/duvet.mp3" />
+              <audio ref={audioRef} src="/cardigan-eren.mp3" />
             </div>
           </div>
         </Layout>
