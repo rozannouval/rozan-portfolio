@@ -83,7 +83,7 @@ export default function Home() {
                 <motion.div className={`lg:w-72 w-56 lg:m-8 m-4 rounded-full border-2 border-light/50 ${isPlaying ? "animate-beat-spin-low" : ""}`}>
                   <MotionImage
                     src={profilePic}
-                    alt="DigitalArt"
+                    alt="MyProfile"
                     className="w-full h-auto rounded-full"
                   />
                 </motion.div>
@@ -99,7 +99,7 @@ export default function Home() {
                 {isPlaying ? <TbMusicOff /> : <TbMusic />}
               </button>
 
-              <audio ref={audioRef} src="/cardigan-eren.mp3" />
+              <audio ref={audioRef} loop src="/cardigan-eren.mp3" />
             </div>
           </div>
         </Layout>
