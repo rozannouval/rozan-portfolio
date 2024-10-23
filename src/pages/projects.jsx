@@ -47,6 +47,7 @@ const Projects = () => {
             {myProjects.map((item, index) => (
               <a
                 href={item.link}
+                key={index}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 border border-light transition-all duration-300 hover:bg-light/20 rounded-lg "
