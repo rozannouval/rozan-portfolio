@@ -144,7 +144,7 @@ export default function Skills({ className }) {
       </div>
 
       <h3 className="font-bold text-2xl md:text-3xl mt-12 w-full">Backend</h3>
-      <div className="flex my-8">
+      <div className="flex my-8 overflow-x-auto no-scrollbar">
         {backendSkills.map((item, index) => (
           <SkillItem key={index} item={item} />
         ))}

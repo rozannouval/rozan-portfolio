@@ -20,6 +20,12 @@ const Projects = () => {
       link: "https://google-company.vercel.app/",
     },
     {
+      title: "To-Do List",
+      description: "Website ini dibuat menggunakan next.js versi 13",
+      image: "todo-list.png",
+      link: "https://to-do-list-rzn.vercel.app/",
+    },
+    {
       title: "Daftar Anime Ku",
       description: "Website ini dibuat menggunakan next.js 13 dan API",
       image: "daftaranimeku.png",

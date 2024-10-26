@@ -7,3 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.no-scrollbar {
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
